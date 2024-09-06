@@ -14,27 +14,115 @@ nav {
 }
 
 #hero {
-    padding: 4rem;
-    min-height: 100vh;
+    padding: 4rem 4rem 0;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     gap: 3rem;
+    margin: 1.5rem auto;
+    border: 1px solid #000;
 }
 
-#hero h1 {
+h1 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.6;
 }
 
-#hero button {
-    text-transform: uppercase;
+#hero a {
     letter-spacing: 1px;
 }
 
-.detail_btn:hover {
+.detail_btn:hover, #hero a:hover {
     background-color: #fff;
     color: black;
 }
+
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-text {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #535f66; 
+}
+
+#about {
+    background-color: #f8f9fa;
+    min-height: 85vh;
+    margin: 1.5rem auto;
+    border: 1px solid #000;
+}
+
+#about h2 {
+    font-weight: 700;
+}
+
+#about p.lead {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+#about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+  
+.code-block {
+    max-height: 85vh; /* Adjust as needed */
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #2d2d2d;
+}
+  
+.copy-btn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: #2d2d2d;
+    color: white;
+    border: none;
+    padding: 0.01rem 0.1rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+    border-radius: 4px;
+}
+
+/* .copy-btn:hover {
+    background-color: #4b4a4a;
+}
+   */

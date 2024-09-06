@@ -1,0 +1,23 @@
+HTML tags that I used:
+- header
+- main
+- div
+- section 
+- h1, h5, p 
+- pre 
+- code 
+- img 
+- a 
+- ul, li 
+- button 
+- svg 
+- span 
+- i 
+- footer 
+
+CSS properties that I used 
+- font-family, font-weight, font-size, line-height, text-transform, letter-spacing, text-align, vertical-align
+- padding, margin, min-height, display, justify-content, align-items, gap
+- border, border-radius, background-color, color, list-style, transition, overflow, cursor
+
+- I want to use Bootstrap because it give me ready made components like Navbar, Cards, Buttons and I want to use Javascript because I want to use Clipboard API.
